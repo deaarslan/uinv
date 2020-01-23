@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #111;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	color: white;
+	text-decoration: none;
+	background-color: darkblue;
+	padding: 10px 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+input, select, textarea {
+	margin-bottom: 6px;
+}
+
+/*
+form {
+	width: 300px;
+	margin-left: 20px;
+}
+*/
+
+.input {
+	padding: 10px;
+}
+
+.select-input {
+	margin-top: 5px;
+	padding: 6px;
+	font-size: 20px;
+}
+
+form {
+	text-align: center;
+}
+
+.login-form {
+	width: 50%;
+	margin: 50px auto;
+	background-color: lightgreen;
+	padding: 20px;
+	border-radius: 16px;
+}
+
+.submit-button {
+	padding: 8px 30px;
+	background-color: lightgreen;
+	border: 2px solid black;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.login-button {
+	background-color: lightblue;
+	border: 2px solid black;
+}
+
+.created-text {
+	color: green;
+}
+
+.management-panel {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	margin: 30px;
+}
+
+.management-panel > div {
+	flex: 1;
+	margin-left: 10px;
+}
+
+.management-panel > div > h2 {
+	background-color: green;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.ticket {
+	text-align: left;
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+	border: 3px solid darkblue;
+	background-color: green;
+	color: white;
+}
+
+.ticket > * {
+	border-bottom: 1px solid darkblue;
+	padding: 5px;
+}
+
+.comment-form {
+	margin-top: 10px;
+	text-align: left;
+	overflow: hidden;
+	width: 50%;
+	margin-left: 0;
+}
+
+.comment-textarea {
+	float: none;
+	display: block;
+	width: 90%;
+}
+
+.comment-form > input {
+	float: left;
+	margin-top: 3px;
+}
+
+.ticket-container {
+	margin: 10px auto;
+	width: 90%;
+}
+
+.ticket-info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.input {
+	font-size: 18px;
+	margin-bottom: 18px;
+	display: block;
+	width: 100%;
+	padding: 6px;
+}
+
+.panel-h2 {
+	margin-top: 0;
+}
+
+.search-form {
+	display: block;
+	margin-top: 6px;
+}
+
+.search-button {
+	width: 100%;
+}
+
+.container {
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+}
